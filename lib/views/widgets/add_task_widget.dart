@@ -26,9 +26,7 @@ class _AddTaskWidgetState extends State<AddTaskWidget> {
           horizontal: 20.0,
         ),
         child: SingleChildScrollView(
-          physics: const AlwaysScrollableScrollPhysics(
-            parent: BouncingScrollPhysics(),
-          ),
+          physics: const BouncingScrollPhysics(),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
